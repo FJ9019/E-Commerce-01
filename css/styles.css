@@ -319,7 +319,7 @@ img {
 .sneaker__preci {
   font-size: var(--h2-font-size);
   letter-spacing: .1rem;
-  font-weight: var(--font-semi-bold);
+  font-weight: var(--font-bold);
 }
 
 .sneaker__name {
@@ -375,7 +375,10 @@ img {
 }
 
 /*===== WOMEN SNEAKERS =====*/
-
+.women__container {
+  row-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
 
 /*===== OFFER =====*/
 
