@@ -577,17 +577,19 @@ img {
     text-align: center;
   }
 
-  
+  .new__mens {
+    align-items: center;
+  }
 }
 
 
 @media screen and (min-width: 768px) {
   body {
-    margin: 0;;
+    margin: 0;
   }
 
   .section {
-    padding: 7rem 0;
+    padding: 7rem 0 3rem;
   }
 
   .section-title::after {
@@ -636,5 +638,22 @@ img {
     top: 3.5rem;
     right: 0;
     left: -3rem;
+  }
+
+  .newsletter__container {
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem 2rem;
+    column-gap: 3rem;
+  }
+
+  .newsletter__description {
+    margin-bottom: 0;
+  }
+
+  .newsletter__subscribe {
+    width: 360px;
+    height: max-content;
   }
 }
